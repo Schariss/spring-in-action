@@ -1,0 +1,9 @@
+spring:
+  devtools:
+    reload:
+    trigger-file: .reloadtrigger
+  datasource:
+    generate-unique-name: false
+    name: tacocloud
+# database URL: jdbc:h2:mem:tacocloud
+#spring.thymeleaf.cache=false
