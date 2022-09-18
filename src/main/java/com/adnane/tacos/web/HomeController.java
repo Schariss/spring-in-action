@@ -9,12 +9,12 @@ import java.util.logging.Logger;
 @Controller
 public class HomeController {
 
-    Logger log = Logger.getLogger(HomeController.class.getName());
+//    Logger log = Logger.getLogger(HomeController.class.getName());
 
-    @GetMapping("/")
-    public String home(ServletRequest req) {
-        log.info("in home page method");
-        // This value is interpreted as the logical name of a view
-        return "home";
-    }
+//    @GetMapping("/")
+//    public String home(ServletRequest req) {
+//        log.info("in home page method");
+//        // This value is interpreted as the logical name of a view
+//        return "home";
+//    }
 }
